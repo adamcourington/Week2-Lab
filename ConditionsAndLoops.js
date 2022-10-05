@@ -89,7 +89,9 @@ switch (studentGrade) {
 console.log(studentClass);
 //Problem #5
 // write a for loop that will iterate backwards from 10 to -10
-
+for (let i = 10; i > -11; i--) {
+  console.log(i);
+}
 //Problem #6
 // write a do/while loop that prints 1 through 50
 
