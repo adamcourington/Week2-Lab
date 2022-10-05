@@ -53,7 +53,40 @@ if (
 // 7-8 will be Middle
 // 9 will be Freshman, 10 Sophomore, 11 Junior, 12 Senior
 // Anything other than these values will return "Error" to the console
+let studentClass;
+let studentGrade = 7;
 
+switch (studentGrade) {
+  case 'K':
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+  case 6:
+    studentClass = 'Elementary';
+    break;
+  case 7:
+  case 8:
+    studentClass = 'Middle';
+    break;
+  case 9:
+    studentClass = 'Freshman';
+    break;
+  case 10:
+    studentClass = 'Sophomore';
+    break;
+  case 11:
+    studentClass = 'Junior';
+    break;
+  case 12:
+    studentClass = 'Senior';
+    break;
+  default:
+    console.log('Error');
+}
+//To test the problem
+console.log(studentClass);
 //Problem #5
 // write a for loop that will iterate backwards from 10 to -10
 
