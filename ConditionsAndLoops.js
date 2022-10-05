@@ -103,6 +103,11 @@ do {
 //Problem #7
 // edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
 
+do {
+  console.log(a % 4);
+  a++;
+} while (a <= 50);
+
 //Problem #8
 // Someone messed up the following for loop
 // fix the following infinite loop, uncomment to test
