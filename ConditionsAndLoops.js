@@ -94,6 +94,11 @@ for (let i = 10; i > -11; i--) {
 }
 //Problem #6
 // write a do/while loop that prints 1 through 50
+let a = 1;
+do {
+  console.log(a);
+  a++;
+} while (a <= 50);
 
 //Problem #7
 // edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
