@@ -1,3 +1,4 @@
+//Problem #1
 // create a variable called speedLimit and another called mySpeed
 let speedLimit = 70;
 let mySpeed = 65;
@@ -16,6 +17,7 @@ if (mySpeed > speedLimit) {
   console.log('Speed up! Dad is mad!');
 }
 
+//Problem #2
 // create two variables, one named alarmSet, the other openDoor
 // set them to a boolean value
 let alarmSet = true;
@@ -29,12 +31,22 @@ if (alarmSet && openDoor) {
 } else {
   console.log('Everything is fine');
 }
-
+//Problem #3
 // create two variables, username and password
+let username = 'Tommy12';
+let password = '12345';
 // create a conditional, if the username is "Tommy123" and the password is "12345"
 // or the username is "Timmy456" and the password is "6789", print "Admin Login Successful" to the console
 // otherwise, print "Admin Access Denied"
-
+if (
+  (username === 'Tommy123' && password === '12345') ||
+  (username === 'Timmy456' && password === '6789')
+) {
+  console.log('Admin Login Successful');
+} else {
+  console.log('Admin Access Denied');
+}
+//Problem #4
 // write code that will set the value of studentClass based on studentGrade
 // studentGrade will be K-12
 // K-6 will be Elementary
@@ -42,12 +54,16 @@ if (alarmSet && openDoor) {
 // 9 will be Freshman, 10 Sophomore, 11 Junior, 12 Senior
 // Anything other than these values will return "Error" to the console
 
+//Problem #5
 // write a for loop that will iterate backwards from 10 to -10
 
+//Problem #6
 // write a do/while loop that prints 1 through 50
 
+//Problem #7
 // edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
 
+//Problem #8
 // Someone messed up the following for loop
 // fix the following infinite loop, uncomment to test
 /* 
